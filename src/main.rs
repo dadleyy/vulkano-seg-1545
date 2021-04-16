@@ -49,7 +49,7 @@ fn main() -> Result<()> {
   let dimensions = surf.window().inner_size();
 
   log::debug!("creating attchment image");
-  AttachmentImage::new(devi.clone(), dimensions.into(), Format::D16Unorm)
+  AttachmentImage::transient(devi.clone(), dimensions.into(), Format::D16Unorm)
     .map_err(normalize_error)?;
   log::debug!("attchment image ready");
 
