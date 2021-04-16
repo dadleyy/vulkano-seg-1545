@@ -966,16 +966,19 @@ checksum = "5fecdca9a5291cc2b8dcf7dc02453fee791a280f3743cb0905f8822ae463b3fe"
 [[package]]
 name = "vk-sys"
 version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d0c4a1a71e7ae691371c5ca5cc5efc27720881feb81a8ebca5c3fb5b7db601c8"
 
 [[package]]
 name = "vulkano"
 version = "0.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7b34b537d0050076f22526f6aab0ee53b1aae135d9d13ac5acd9cf3d916940c7"
 dependencies = [
  "crossbeam-queue",
  "fnv",
  "half",
  "lazy_static",
- "log",
  "parking_lot",
  "shared_library",
  "smallvec",
@@ -983,7 +986,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "vulkano-seg-1554"
+name = "vulkano-seg-1545"
 version = "0.1.0"
 dependencies = [
  "env_logger",
