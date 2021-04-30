@@ -966,12 +966,12 @@ checksum = "5fecdca9a5291cc2b8dcf7dc02453fee791a280f3743cb0905f8822ae463b3fe"
 [[package]]
 name = "vk-sys"
 version = "0.6.0"
-source = "git+https://github.com/vulkano-rs/vulkano?rev=fb187e888469ac2255855ffa8b7022258a688222#fb187e888469ac2255855ffa8b7022258a688222"
+source = "git+https://github.com/vulkano-rs/vulkano?rev=2e1506068385628d878ef4fdf80889e7ff8923b8#2e1506068385628d878ef4fdf80889e7ff8923b8"
 
 [[package]]
 name = "vulkano"
 version = "0.22.0"
-source = "git+https://github.com/vulkano-rs/vulkano?rev=fb187e888469ac2255855ffa8b7022258a688222#fb187e888469ac2255855ffa8b7022258a688222"
+source = "git+https://github.com/vulkano-rs/vulkano?rev=2e1506068385628d878ef4fdf80889e7ff8923b8#2e1506068385628d878ef4fdf80889e7ff8923b8"
 dependencies = [
  "crossbeam-queue",
  "fnv",

@@ -11,4 +11,4 @@ env_logger = { version = "0.8.3" }
 log = { version = "^0.4.1" }
 
 [patch.crates-io]
-vulkano = { git = 'https://github.com/vulkano-rs/vulkano', rev = 'fb187e888469ac2255855ffa8b7022258a688222' }
+vulkano = { git = 'https://github.com/vulkano-rs/vulkano', rev = '2e1506068385628d878ef4fdf80889e7ff8923b8' }
