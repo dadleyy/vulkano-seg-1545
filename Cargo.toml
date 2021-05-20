@@ -4,11 +4,9 @@ version = "0.1.0"
 edition = "2018"
 
 [dependencies]
-vulkano = { version = "0.22" }
-vulkano-win = { version = "0.22" }
+vulkano = { git = "https://github.com/dadleyy/vulkano", rev = "01fcd53faa6980d2bfbaf1542afeecabccb74d87" }
+vulkano-win = { git = "https://github.com/dadleyy/vulkano", rev = "01fcd53faa6980d2bfbaf1542afeecabccb74d87" }
+vk-sys = { git = "https://github.com/dadleyy/vulkano", rev = "01fcd53faa6980d2bfbaf1542afeecabccb74d87" }
 winit = { version = "0.24.0" }
 env_logger = { version = "0.8.3" }
 log = { version = "^0.4.1" }
-
-[patch.crates-io]
-vulkano = { git = 'https://github.com/vulkano-rs/vulkano', rev = '2e1506068385628d878ef4fdf80889e7ff8923b8' }
